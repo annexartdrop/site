@@ -1,11 +1,8 @@
 
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <div>
       <h1>Hi</h1>
     </div>
   );
 }
-
-export default App;
