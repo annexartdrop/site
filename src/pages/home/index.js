@@ -1,7 +1,7 @@
 import style from "./index.module.scss"
 import Ticker from "../../components/ticker";
 import { ReactComponent as Hearts } from "../../images/peepoo.svg";
-import {ReactComponent as Location} from "../../images/location.svg";
+import { ReactComponent as Location } from "../../images/location.svg";
 
 export default function Home() {
   return (

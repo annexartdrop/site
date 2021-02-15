@@ -5,7 +5,7 @@ import Footer from "../../components/footer";
 export default function About() {
   return (
     <React.Fragment>
-      <div className="aboutContainer">
+      <div className={style.aboutContainer}>
         <h1>About</h1>
       </div>
       <Footer/>

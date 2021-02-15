@@ -6,4 +6,51 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  & h3 {
+    color: $pink;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+}
+
+.left {
+  color: $pink;
+
+  & svg {
+    width: 100px;
+  }
+
+  & .name {
+    font-family: ingra, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
+
+  & p {
+    font-size: 0.2rem;
+  }
+}
+
+.right {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerContainer li {
+  list-style: none;
+  font-family: ingra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  & a:visited {
+    color: $blue;
+  }
+}
+
+.footerUL {
+  margin-left: 1.5rem;
 }
