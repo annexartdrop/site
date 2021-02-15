@@ -1,0 +1,43 @@
+@import "../../styles/variables.scss";
+
+.fixedHome {
+  top: 2rem;
+  left: 2rem;
+  position: fixed;
+}
+
+.fixedOther {
+  top: 0;
+  padding: 2rem;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#heartSize {
+  width: 100px;
+}
+
+.mainNav {
+  & a {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    list-style: none;
+    font-family: ingra, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    height: fit-content;
+  }
+
+  & li:hover {
+    color: darken($pink, 20%);
+    transition: 0.2s ease-in-out;
+  }
+
+  & a:visited {
+    color: $pink;
+  }
+}

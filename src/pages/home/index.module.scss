@@ -12,13 +12,7 @@
 
 .hearts {
   margin-bottom: 1rem;
-  animation: bounce 4s ease-in-out infinite;
-}
-
-#test {
-  width: 10px;
-  margin-right: 0.5rem;
-  transform: translateY(0.2rem);
+  //animation: bounce 4s ease-in-out infinite;
 }
 
 @keyframes bounce {
@@ -33,6 +27,20 @@
   }
 }
 
+.locationContainer {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+#locationIcon {
+  width: 10px;
+  margin-right: 0.5rem;
+  transform: translateY(0.2rem);
+}
+
 .heroContainer h1 {
   margin-bottom: 1rem;
 }
@@ -42,4 +50,46 @@
   text-transform: uppercase;
   font-size: 0.6rem;
   display: inline-block;
+}
+
+/*Media Queries*/
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .hearts {
+    width: 250px;
+    margin-bottom: 0rem;
+  }
+  .heroContainer h1 {
+    font-size: 5rem;
+  }
+
+  #locationIcon {
+    width: 20px;
+    margin-right: 1rem;
+    transform: translateY(0.4rem);
+  }
+
+  .heroContainer h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .heroCenter h2 {
+    font-size: 1rem;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
+
+/* For TV Screens & Projectors */
+@media (min-width: 2000px) {
 }

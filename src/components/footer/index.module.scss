@@ -18,7 +18,7 @@
   color: $pink;
 
   & svg {
-    width: 100px;
+    width: 75px;
   }
 
   & .name {
@@ -26,7 +26,7 @@
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 
   & p {
@@ -35,7 +35,7 @@
 }
 
 .right {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   display: flex;
   justify-content: space-between;
 }
@@ -52,5 +52,5 @@
 }
 
 .footerUL {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
 }

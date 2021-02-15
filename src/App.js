@@ -10,6 +10,7 @@ import About from "./pages/about";
 
 const App = withRouter(
   class App extends Component {
+
     render() {
       return (
         <div>
