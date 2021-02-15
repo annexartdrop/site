@@ -7,9 +7,24 @@
   box-sizing: border-box;
 }
 
+//arabesque
 h1 {
   font-family: hwt-arabesque,  sans-serif;
   font-weight: 400;
   font-style: normal;
   color: $pink;
+}
+
+//ingra bold
+h2 {
+  font-family: ingra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+//ingra regular
+p {
+  font-family: ingra, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
