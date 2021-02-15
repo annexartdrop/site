@@ -1,0 +1,9 @@
+@import "../../styles/variables.scss";
+
+.footerContainer {
+  background-color: $lightPink;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
