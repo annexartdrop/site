@@ -2,7 +2,6 @@ import React from "react";
 import style from "./index.module.scss"
 import Footer from "../../components/footer";
 import OtherNav from "../../components/nav/othernav";
-import store from "../../database";
 
 export default function About() {
   return (
