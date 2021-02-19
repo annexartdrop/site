@@ -19,12 +19,16 @@ class Database {
         page:
           "Aboout",
         answerOptions: [
-          { backgroundText: "annexartdrop", 
+          { headerText: "annexartdrop", 
             image1: "",
             image2: "",
             image3: "",
             category: "images",
-          }
+          },
+          { headerText: "mission", 
+          content: "testtesttest",
+          category: "text",
+        }
         ]
       },
     ];
