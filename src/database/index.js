@@ -14,6 +14,23 @@ class Database {
       category: "text",
     }
 
+    this.test = [
+      {
+        page:
+          "Aboout",
+        answerOptions: [
+          { backgroundText: "annexartdrop", 
+            image1: "",
+            image2: "",
+            image3: "",
+            category: "images",
+          }
+        ]
+      },
+    ];
+
+    
+
     this.blm = [
       "George Floyd",
       "Ahmaud Arbery",
