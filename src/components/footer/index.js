@@ -14,8 +14,8 @@ const Footer = () => {
       <ul>
         <h3>About</h3>
         <span className={style.ulSpacer}/>
-        <li><Link to={"/"}>Mission</Link></li>
-        <li><Link to={"/"}>History</Link></li>
+        <li><Link to={"/about"}>About</Link></li>
+        <li><Link to={"/"}>FAQ</Link></li>
         <li><Link to={"/"}>Visit</Link></li>
       </ul>
       <ul className={style.footerUL}>
