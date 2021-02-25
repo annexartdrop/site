@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
+import StartYourOwn from "./pages/startyourown";
 
 const App = withRouter(
   class App extends Component {
@@ -17,6 +18,7 @@ const App = withRouter(
             <Switch>
               <Route path="/" exact component={Home}/>
               <Route path="/about" component={About}/>
+              <Route path="/startyourown" component={StartYourOwn}/>
             </Switch>
         </div>
       );
