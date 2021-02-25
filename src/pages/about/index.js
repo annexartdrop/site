@@ -15,7 +15,7 @@ export default function About() {
         </section>
         <section>
           <h2>we hate autocorrect and love aave &amp; pidgin creole.</h2>
-          <p>Yes, the “grammar” on this site is not perfect english. it should not be. we encourage & embrace the language you grew up with. for us, its pidgin creole. We know the effects of “professionalism” on language erasure. when interacting with this space, we encourage you to use whatever language you’re comfortable with.</p>
+          <p>Yes, the “grammar” on this site is not perfect english. At Annex, we encourage &amp; embrace the language you grew up with. For us, its pidgin creole. We know the effects of “professionalism” on language erasure. When interacting with this space, we encourage you to use whatever language you’re comfortable with.</p>
         </section>
       </div>
       <Footer/>
