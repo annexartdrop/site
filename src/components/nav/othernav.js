@@ -12,8 +12,8 @@ export default class OtherNav extends React.Component {
         </div>
         <nav className={style.mainNav}>
           <ul>
-            <Link to={"/"}>
-              <li>Other</li>
+            <Link to={"/mission"}>
+              <li>Mission</li>
             </Link>
           </ul>
         </nav>

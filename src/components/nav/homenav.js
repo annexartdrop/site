@@ -8,7 +8,7 @@ export default class HomeNav extends React.Component {
       <div className={style.fixedHome}>
         <nav className={style.mainNav}>
           <ul>
-            <Link to={"/about"}>
+            <Link to={"/mission"}>
               <li>Mission</li>
             </Link>
             <Link to={"/about"}>

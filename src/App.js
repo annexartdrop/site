@@ -6,7 +6,7 @@ import {
   withRouter,
 } from "react-router-dom";
 import Home from "./pages/home";
-import About from "./pages/about";
+import Mission from "./pages/mission";
 import StartYourOwn from "./pages/startyourown";
 
 const App = withRouter(
@@ -17,7 +17,7 @@ const App = withRouter(
         <div>
             <Switch>
               <Route path="/" exact component={Home}/>
-              <Route path="/about" component={About}/>
+              <Route path="/mission" component={Mission}/>
               <Route path="/startyourown" component={StartYourOwn}/>
             </Switch>
         </div>

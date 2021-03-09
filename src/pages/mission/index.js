@@ -3,7 +3,7 @@ import style from "./index.module.scss"
 import Footer from "../../components/footer";
 import OtherNav from "../../components/nav/othernav";
 
-export default function About() {
+export default function Mission() {
   return (
     <React.Fragment>
       <OtherNav/>
