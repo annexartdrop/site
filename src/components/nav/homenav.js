@@ -9,7 +9,7 @@ export default class HomeNav extends React.Component {
         <nav className={style.mainNav}>
           <ul>
             <Link to={"/about"}>
-              <li>About</li>
+              <li>Mission</li>
             </Link>
             <Link to={"/about"}>
               <li>Start Your Own</li>
