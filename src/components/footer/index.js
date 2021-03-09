@@ -14,14 +14,14 @@ const Footer = () => {
       <ul>
         <h3>About</h3>
         <span className={style.ulSpacer}/>
-        <li><Link to={"/about"}>About</Link></li>
-        <li><Link to={"/"}>FAQ</Link></li>
+        <li><Link to={"/mission"}>Mission</Link></li>
+        <li><Link to={"/contribute"}>Contribute</Link></li>
         <li><Link to={"/"}>Visit</Link></li>
       </ul>
       <ul className={style.footerUL}>
         <h3>Resources</h3>
         <li><Link to={"/"}>Start your own</Link></li>
-        <li><Link to={"/"}>Friends</Link></li>
+        <li><Link to={"/"}>@annexartdrop</Link></li>
         <li><Link to={"/"}>@wabashartdrop</Link></li>
       </ul>
     </div>

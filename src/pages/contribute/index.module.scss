@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+section {
+  margin-bottom: 4rem;
+}
+
+.contributeCopy {
+  padding: 2rem;
+
+  & h2 {
+    text-transform: uppercase;
+    color: $pink;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  & p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
