@@ -15,7 +15,7 @@ export default class OtherNav extends React.Component {
             <Link to={"/mission"}>
               <li>Mission</li>
             </Link>
-            <Link to={"/mission"}>
+            <Link to={"/startyourown"}>
               <li>Start UR Own</li>
             </Link>
             <Link to={"/mission"}>
