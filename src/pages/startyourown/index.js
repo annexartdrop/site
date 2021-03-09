@@ -10,7 +10,7 @@ export default function StartYourOwn() {
       <div className={style.syoContainer}>
         <section>
           <h2>Start Your Own</h2>
-          <p>A resource on starting your own box in your area</p>
+          <p>A resource on starting an art drop in your area</p>
         </section>
       </div>
       <Footer/>
