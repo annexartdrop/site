@@ -14,8 +14,8 @@ export default class HomeNav extends React.Component {
             <Link to={"/about"}>
               <li>Start Your Own</li>
             </Link>
-            <Link to={"/about"}>
-              <li>Friends</li>
+            <Link to={"/contribute"}>
+              <li>Contribute</li>
             </Link>
           </ul>
         </nav>
