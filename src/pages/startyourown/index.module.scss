@@ -49,6 +49,17 @@ section {
     fill: white;
     transition: ease-in-out all 0.2s;
   }
+
+  &:focus {
+    transition: ease-in-out all 0.2s;
+    background-color: $blue;
+    color: white;
+  }
+
+  &:focus > svg {
+    fill: white;
+    transition: ease-in-out all 0.2s;
+  }
 }
 
 .buttons svg {
