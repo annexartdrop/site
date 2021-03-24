@@ -8,7 +8,7 @@ export default function Contribute() {
     <React.Fragment>
       <OtherNav/>
       <div className={style.contributeContainer}>
-        <div className={style.contributeCopy}>
+        <div className={style.pageCopy}>
           <section>
             <h2>Contribute</h2>
             <p>This project is sustained &amp; driven by the community. Inspired by @sentientmoss’ @wabashartdrop project, the Annex holds the same mission.</p>
