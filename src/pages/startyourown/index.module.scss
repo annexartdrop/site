@@ -37,6 +37,14 @@ section {
   color: $blue;
   letter-spacing: 0.1rem;
   font-size: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    transition: ease-in-out all 0.2s;
+    background-color: $blue;
+    color: white;
+  }
+
 }
 
 .buttons svg {
