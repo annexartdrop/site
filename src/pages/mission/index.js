@@ -24,12 +24,8 @@ export default function Mission() {
             <h2>Land Acknowledgement</h2>
             <p>Portland rests on traditional village sites of the Multnomah, Kathlamet, Clackamas, Chinook, Tualatin Kalapuya, Molalla and many other Tribes who made their homes along the Columbia River. We take this opportunity to thank the original caretakers of this land. Please join us in our acknowledgement of the land we find ourselves in.</p>
           </section>
-          <section>
-            <h2>Our Commitment to Equity</h2>
-            <p>filler</p>
-          </section>
-          <section>
-            <h2>@annexartdrop is organized by two indigenous &amp; very gay women (like they’re in lesbians w/each other) 💅</h2>
+          <section className={style.lastText}>
+            <h2>@annexartdrop is organized by two indigenous gay women</h2>
           </section>
         </div>
       </div>
