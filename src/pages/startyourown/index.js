@@ -11,6 +11,7 @@ export default function StartYourOwn() {
         <section>
           <h2>Start Your Own</h2>
           <p>A resource on starting an art drop in your area</p>
+          <button className={style.buttons}>Download template</button>
         </section>
       </div>
       <Footer/>

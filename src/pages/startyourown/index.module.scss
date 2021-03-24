@@ -7,22 +7,36 @@ section {
 .syoContainer {
   overflow: hidden;
   padding: 2rem;
+}
 
-  & h2 {
-    text-transform: uppercase;
-    color: $pink;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-  }
+.syoContainer h2 {
+  text-transform: uppercase;
+  color: $pink;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
 
-  & p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
+.syoContainer p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
 
-  .lastText h2 {
-    font-size: 2rem;
-  }
+.syoContainer .lastText h2 {
+  font-size: 2rem;
+}
+
+.buttons {
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  font-family: ingra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid $blue;
+  color: $blue;
+  letter-spacing: 0.1rem;
+  font-size: 0.5rem;
 }
 
 /*Media Queries*/
