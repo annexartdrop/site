@@ -5,6 +5,7 @@
   h1 {
     font-size: 3.5rem;
     transform: translateX(-1.3rem);
+    text-align: center;
     color: $pink;
   }
 
@@ -44,6 +45,11 @@
   .photoSlide {
     .imageCard {
       width: 200px;
+    }
+
+    h1 {
+      transform: translateX(0);
+      font-size: 12rem;
     }
   }
 }
