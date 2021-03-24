@@ -11,7 +11,7 @@ export default function Mission() {
         <OtherNav/>
         <div className={style.missionCopy}>
           <section>
-            <h2>About</h2>
+            <h2>Mission</h2>
             <p>Hey we’re the Annex Art Drop, we’re a community run art drop located in downtown Portland, OR. As a sister drop of a @sentientmoss @wabashartdrop, we serve as a public engagement space for Portland’s art community.</p>
             <p>By using recycled newspaper stands (either donated by companies or scouted by city affiliates) “we are able to reduce trash on the street while simultaneously encouraging visual art and making it an accessible project for anyone wanting to get involved regardless of their financial situation.” </p>
           </section>
