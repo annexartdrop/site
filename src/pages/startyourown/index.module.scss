@@ -45,6 +45,10 @@ section {
     color: white;
   }
 
+  &:hover > svg {
+    fill: white;
+    transition: ease-in-out all 0.2s;
+  }
 }
 
 .buttons svg {
