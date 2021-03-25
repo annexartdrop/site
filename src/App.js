@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   withRouter,
@@ -31,7 +31,7 @@ const App = withRouter(
 class RoutedApp extends Component {
   render() {
     return (
-      <Router basename="/annexartdrop">
+      <Router basename="/">
         <App />
       </Router>
     );
