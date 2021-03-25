@@ -31,7 +31,7 @@ const App = withRouter(
 class RoutedApp extends Component {
   render() {
     return (
-      <Router basename="/">
+      <Router basename="/annexartdrop">
         <App />
       </Router>
     );
