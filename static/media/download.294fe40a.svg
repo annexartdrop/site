@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <g id="Download_2" data-name="Download 2">
+    <g id="Download_1-2" data-name="Download 1">
+      <path class="download-1" d="M285 180a15 15 0 00-15 15v60a15 15 0 01-15 15H45a15 15 0 01-15-15v-60a15 15 0 00-30 0v60a45 45 0 0045 45h210a45 45 0 0045-45v-60a15 15 0 00-15-15z"/>
+      <path class="download-1" d="M139 206a15 15 0 005 3h1a15 15 0 0010 0h1a15 15 0 005-3l75-75a15 15 0 00-22-22l-49 50V15a15 15 0 10-30 0v144l-49-50a15 15 0 00-22 22z"/>
+    </g>
+  </g>
+</svg>
