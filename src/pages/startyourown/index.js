@@ -35,7 +35,6 @@ Thank you so much for your consideration,
         </section>
         <section>
           <h2>Finding your box<span className={style.copyIcon} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
-          <p>{boxTemplate}</p>
         </section>
       </div>
       <Footer/>
