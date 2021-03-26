@@ -25,6 +25,17 @@ section {
   font-size: 2rem;
 }
 
+.syoContainer svg {
+  height: 1.5rem;
+  margin-left: 2rem;
+  fill: $pink;
+  cursor: pointer;
+
+  &:hover {
+    fill: $blue;
+  }
+}
+
 .buttons {
   padding: 1rem 3rem;
   border-radius: 3rem;
