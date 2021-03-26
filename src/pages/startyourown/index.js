@@ -3,6 +3,7 @@ import style from "./index.module.scss"
 import Footer from "../../components/footer";
 import OtherNav from "../../components/nav/othernav";
 import { ReactComponent as DownloadIcon } from "../../images/download.svg";
+import { ReactComponent as Copy } from "../../images/copy.svg";
 
 export default function StartYourOwn() {
 
@@ -33,7 +34,7 @@ Thank you so much for your consideration,
           <button className={style.buttons} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}>Download template<DownloadIcon/></button>
         </section>
         <section>
-          <h2>Finding your box</h2>
+          <h2>Finding your box<span><Copy/></span></h2>
           <p>{boxTemplate}</p>
         </section>
       </div>
