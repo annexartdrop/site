@@ -7,6 +7,7 @@ import { ReactComponent as DownloadIcon } from "../../images/download.svg";
 import Slaps from "../../images/AnnexSlapSheet.pdf";
 
 export default function Printables() {
+
   return (
     <React.Fragment>
       <OtherNav/>
@@ -14,8 +15,10 @@ export default function Printables() {
         <section>
           <h2>Printables</h2>
           <p>Sharing some of the Annex love, these are free resources for you to print on stickies, tee shirts, or whatever you like!</p>
+        </section>
+        <section className={style.downloadSections}>
           <h2>Slaps</h2>
-          <button className={style.buttons}>Download PDF<DownloadIcon/></button>
+          <a className={style.pdfDownload} href={Slaps}>Download PDF<DownloadIcon/></a>
         </section>
       </div>
       <Footer/>
