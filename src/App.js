@@ -9,6 +9,7 @@ import Home from "./pages/home";
 import Mission from "./pages/mission";
 import StartYourOwn from "./pages/startyourown";
 import Contribute from "./pages/contribute";
+import Printables from "./pages/printables";
 
 const App = withRouter(
   class App extends Component {
@@ -21,6 +22,7 @@ const App = withRouter(
               <Route path="/mission" component={Mission}/>
               <Route path="/startyourown" component={StartYourOwn}/>
               <Route path="/contribute" component={Contribute}/>
+              <Route path="/printables" component={Printables}/>
             </Switch>
         </div>
       );

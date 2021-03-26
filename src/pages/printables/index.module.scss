@@ -1,0 +1,111 @@
+@import "../../styles/variables.scss";
+
+section {
+  margin-bottom: 4rem;
+}
+
+.printablesContainer {
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.printablesContainer h2 {
+  text-transform: uppercase;
+  color: $pink;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.printablesContainer p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.printablesContainer .lastText h2 {
+  font-size: 2rem;
+}
+
+.buttons {
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  font-family: ingra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid $blue;
+  color: $blue;
+  letter-spacing: 0.1rem;
+  font-size: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    transition: ease-in-out all 0.2s;
+    background-color: $blue;
+    color: white;
+  }
+
+  &:hover > svg {
+    fill: white;
+    transition: ease-in-out all 0.2s;
+  }
+
+  &:focus {
+    transition: ease-in-out all 0.2s;
+    background-color: $blue;
+    color: white;
+  }
+
+  &:focus > svg {
+    fill: white;
+    transition: ease-in-out all 0.2s;
+  }
+}
+
+.buttons svg {
+  margin-left: 0.5rem;
+  width: 10px;
+  fill: $blue;
+  transform: translateY(2px);
+}
+
+/*Media Queries*/
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .printablesContainer {
+    & h2 {
+      font-size: 2rem;
+    }
+
+    & p {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .printablesContainer {
+    width: 50vw;
+    margin: 0 auto;
+
+    & p {
+      line-height: 3rem;
+    }
+    .lastText h2 {
+      font-size: 3rem;
+    }
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
+
+/* For TV Screens & Projectors */
+@media (min-width: 2000px) {
+}
