@@ -31,10 +31,10 @@ Thank you so much for your consideration,
         <section>
           <h2>Start Your Own</h2>
           <p>A resource on starting an art drop in your area</p>
-          <button className={style.buttons} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}>Download template<DownloadIcon/></button>
+          <button className={style.buttons}>Download template<DownloadIcon/></button>
         </section>
         <section>
-          <h2>Finding your box<span><Copy/></span></h2>
+          <h2>Finding your box<span onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
           <p>{boxTemplate}</p>
         </section>
       </div>
