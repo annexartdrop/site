@@ -34,7 +34,7 @@ Thank you so much for your consideration,
           <button className={style.buttons}>Download template<DownloadIcon/></button>
         </section>
         <section>
-          <h2>Finding your box<span onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
+          <h2>Finding your box<span className={style.copyIcon} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
           <p>{boxTemplate}</p>
         </section>
       </div>
