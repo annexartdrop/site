@@ -18,7 +18,7 @@ export default function Printables() {
         </section>
         <section className={style.downloadSections}>
           <h2>Slaps</h2>
-          <a className={style.pdfDownload} href={Slaps}>Download PDF<DownloadIcon/></a>
+          <a className={style.pdfDownload} href={Slaps} target="_blank">Download PDF<DownloadIcon/></a>
         </section>
       </div>
       <Footer/>
