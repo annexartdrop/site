@@ -33,7 +33,7 @@ Thank you so much for your consideration,
           <p>A resource on starting an art drop in your area</p>
         </section>
         <section>
-          <h2>Finding your box<span className={style.copyIcon} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
+          <h2>Finding Boxes Email<span className={style.copyIcon} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
         </section>
       </div>
       <Footer/>
