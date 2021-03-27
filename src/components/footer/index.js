@@ -20,7 +20,7 @@ const Footer = () => {
       </ul>
       <ul className={style.footerUL}>
         <h3>Resources</h3>
-        <li><Link to={"/"}>Start your own</Link></li>
+        <li><Link to={"/startyourown"}>Start your own</Link></li>
         <li><Link to={"/"}>@annexartdrop</Link></li>
         <li><Link to={"/"}>@wabashartdrop</Link></li>
       </ul>
