@@ -21,6 +21,16 @@ section {
   margin-bottom: 1rem;
 }
 
+.syoContainer ul {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-family: ingra, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 2.5rem;
+  text-align: left;
+}
+
 .syoContainer .lastText h2 {
   font-size: 2rem;
 }
@@ -95,6 +105,9 @@ section {
     & p {
       font-size: 1.5rem;
     }
+    & ul {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -109,6 +122,9 @@ section {
     }
     .lastText h2 {
       font-size: 3rem;
+    }
+    & ul {
+      line-height: 3rem;
     }
   }
 }
