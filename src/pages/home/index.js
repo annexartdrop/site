@@ -5,12 +5,19 @@ import { ReactComponent as Hearts } from "../../images/peepoo.svg";
 import { ReactComponent as Location } from "../../images/location.svg";
 import HomeNav from "../../components/nav/homenav";
 import gsap from "gsap";
+import Background from "../../components";
 
 export default function Home() {
   let heartRef = useRef(null);
   var timeline = gsap.timeline({ repeat: -1 });
+  let backgroundRef = useRef(null);
 
   useEffect(() => {
+    gsap.to(backgroundRef.current, {
+      duration: 2,
+      width: "100%",
+      ease: "power3.inOut"
+    });
     timeline
       .to(heartRef.current, { duration: 5, y: "-=20", ease: "sine" })
       .to(heartRef.current, { duration: 5, y: "+=20", ease: "sine" });
@@ -30,6 +37,7 @@ export default function Home() {
             <h2>534 sw jackson st. portland, or 97201</h2>
           </div>
         </div>
+        <div ref={backgroundRef} className={style.backgroundRef}></div>
         <Ticker/>
       </div>
     </div>
