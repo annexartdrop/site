@@ -35,6 +35,9 @@ Thank you so much for your consideration,
         <section>
           <h2>Finding Boxes Email<span className={style.copyIcon} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
         </section>
+        <section>
+          <h2>Location Sponsor<span className={style.copyIcon} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
+        </section>
       </div>
       <Footer/>
     </React.Fragment>
