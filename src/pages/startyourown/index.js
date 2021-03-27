@@ -55,10 +55,51 @@ Thank you for your consideration,
           <h2>1) Scout your location</h2>
           <ul>
             <li>decide where you can legally and safely install an artbox!</li>
+            <li>check your city’s regulations on publication boxes</li>
+            <li>for example, in the city of Portland a box:</li>
+            <li>couldn’t be located 6 ft from an electricity cover, driveway, or bus stop</li>
+            <li>must be 2 ft from the curb</li>
+            <li>must have an address, organization name, and phone # on it</li>
+          </ul>
+        </section>
+        <section>
+          <h2>1a) Location Tips</h2>
+          <ul>
+            <li>we recommend somewhere near a public fence or streetpole (to secure it)</li>
+            <li>accessible to artists &amp; the community, and keep others’ abilities in mind! (For example, keep it wheelchair accessible.)</li>
+            <li>some great places:</li>
+            <li>Outside a family / employee owned art shop</li>
+            <li>Near local galleries</li>
+            <li>In a university district</li>
+          </ul>
+        </section>
+        <section>
+          <h2>2&#41; Find a Box</h2>
+          <p>No leads on a box? Here’s where we started for @annexartdrop</p>
+          <ul>
+            <li>We went to google maps to scout out newspaper companies in the area</li>
+            <li>Wrote down all those newspaper companies</li>
+            <li>Found &amp; contacted editors/distribution managers of those companies</li>
+            <li>Template down below!</li>
           </ul>
         </section>
         <section>
           <h2>Finding Boxes Email<span className={style.copyIcon} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
+        </section>
+        <section>
+          <h2>And if you get ghosted -</h2>
+          <ul>
+            <li>check out GovDeals.com, old boxes go up for ~$30</li>
+            <li>boxes for free? call your city’s junkyard</li>
+            <li>You can also look around, find a beat up newspaper box, contact your city &amp; if it meets an abandoned box criteria, see if the city allows you to take it …</li>
+          </ul>
+        </section>
+        <section>
+          <h2>3&#41; Box Located, Time to Acquire </h2>
+          <ul>
+            <li>Make sure you have a way to transport the box</li>
+            <li>If you or a friend don’t have a car, check to see if your city’s transportation allows for bigger objects on busses or trains</li>
+          </ul>
         </section>
         <section>
           <h2>Location Sponsor<span className={style.copyIcon} onClick={() => {navigator.clipboard.writeText(sponsorTemplate)}}><Copy/></span></h2>
