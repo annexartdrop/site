@@ -11,13 +11,12 @@ export default function Contribute() {
         <div className={style.pageCopy}>
           <section>
             <h2>Contribute</h2>
-            <p>This project is sustained &amp; driven by the community. Inspired by @sentientmoss’ @wabashartdrop project, the Annex holds the same mission.</p>
-            <p>By using recycled newspaper stands (either donated by companies or scouted by city affiliates) “we are able to reduce trash on the street while simultaneously encouraging visual art and making it an accessible project for anyone wanting to get involved regardless of their financial situation.” </p>
+            <p>Come thru @ 534 SW Jackson St. Portland, OR 97201. For your visit, we recommend bringing along some of your own work &amp; any sticker blanks or art supply donations that can support other marginalized or homeless artists.</p>
           </section>
           <section>
-            <h2>For Your Visit</h2>
-            <p>We suggest bringing along a few things!</p>
-          </section> 
+            <h2>COVID-19 Info</h2>
+            <p>We'll be following COVID-19 safe practices throughout the year 2021. As such, we are not actively encouraging visiting during this time. BUT Annex will still serve as a virtual arts space for the community. Tag us in your WIPs or final works on Instagram with the hashtag #annexartdrop.</p>
+          </section>
         </div>
       </div>
       <Footer/>
