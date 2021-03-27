@@ -18,24 +18,12 @@
 }
 
 .hearts {
-  margin-bottom: 1rem;
-  //animation: bounce 4s ease-in-out infinite;
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(-2%);
-  }
-  50% {
-    transform: translateY(-5%);
-  }
-  100% {
-    transform: translateY(-2%);
-  }
+  //margin-bottom: 1rem;
 }
 
 .locationContainer {
   cursor: pointer;
+  opacity: 0;
 
   &:hover {
     opacity: 0.75;
@@ -57,6 +45,14 @@
   text-transform: uppercase;
   font-size: 0.6rem;
   display: inline-block;
+}
+
+.titleRef {
+  opacity: 0;
+}
+
+#heartFadeRef {
+  opacity: 0;
 }
 
 /*Media Queries*/
