@@ -45,6 +45,11 @@
   font-family: ingra, sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: $blue;
+
+  & a {
+    color: $blue;
+  }
 
   & a:visited {
     color: $blue;
