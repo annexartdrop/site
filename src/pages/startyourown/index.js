@@ -52,6 +52,12 @@ Thank you for your consideration,
           <p>A resource on starting an art drop in your area</p>
         </section>
         <section>
+          <h2>1) Scout your location</h2>
+          <ul>
+            <li>decide where you can legally and safely install an artbox!</li>
+          </ul>
+        </section>
+        <section>
           <h2>Finding Boxes Email<span className={style.copyIcon} onClick={() => {navigator.clipboard.writeText(boxTemplate)}}><Copy/></span></h2>
         </section>
         <section>
