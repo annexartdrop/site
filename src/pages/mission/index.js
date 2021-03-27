@@ -3,7 +3,7 @@ import style from "./index.module.scss"
 import Footer from "../../components/footer";
 import OtherNav from "../../components/nav/othernav";
 import PhotoSlide from "../../components/photoSlide";
-import Test from "../../images/annexportrait.jpeg";
+import AnnexPortrait from "../../images/annexportrait.jpeg";
 
 export default function Mission() {
   return (
@@ -16,7 +16,7 @@ export default function Mission() {
             <p>Hey we’re the Annex Art Drop, we’re a community run art drop located in downtown Portland, OR. As a sister drop of a @sentientmoss @wabashartdrop, we serve as a public engagement space for Portland’s art community.</p>
             <p>By using recycled newspaper stands (either donated by companies or scouted by city affiliates) “we are able to reduce trash on the street while simultaneously encouraging visual art and making it an accessible project for anyone wanting to get involved regardless of their financial situation.” </p>
           </section>
-          <PhotoSlide image1={Test}/>
+          <PhotoSlide image1={AnnexPortrait}/>
           <section>
             <h2>we hate autocorrect and love aave &amp; pidgin creole.</h2>
             <p>Yes, the “grammar” on this site is not perfect english. At Annex, we encourage &amp; embrace the language you grew up with. For us, its pidgin creole. We know the effects of “professionalism” on language erasure. When interacting with this space, we encourage you to use whatever language you’re comfortable with.</p>
