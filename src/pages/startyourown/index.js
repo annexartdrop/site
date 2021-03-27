@@ -2,7 +2,6 @@ import React from "react";
 import style from "./index.module.scss"
 import Footer from "../../components/footer";
 import OtherNav from "../../components/nav/othernav";
-import { ReactComponent as DownloadIcon } from "../../images/download.svg";
 import { ReactComponent as Copy } from "../../images/copy.svg";
 
 export default function StartYourOwn() {
