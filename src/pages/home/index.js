@@ -13,11 +13,13 @@ export default function Home() {
   let backgroundRef = useRef(null);
 
   useEffect(() => {
+    /*Background Ref*/
     gsap.to(backgroundRef.current, {
       duration: 2,
       width: "100%",
       ease: "power3.inOut"
     });
+    /*Heart Animation*/
     timeline
       .to(heartRef.current, { duration: 5, y: "-=20", ease: "sine" })
       .to(heartRef.current, { duration: 5, y: "+=20", ease: "sine" });
