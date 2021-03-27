@@ -10,6 +10,14 @@
   text-align: center;
 }
 
+.backgroundRef {
+  background-color: $lightPink;
+  width: 0%;
+  height: 100vh;
+  position: absolute;
+  z-index: -3;
+}
+
 .hearts {
   margin-bottom: 1rem;
   //animation: bounce 4s ease-in-out infinite;
