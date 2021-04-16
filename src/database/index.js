@@ -36,6 +36,7 @@ class Database {
     
 
     this.blm = [
+      "Daunte Wright",
       "George Floyd",
       "Ahmaud Arbery",
       "Breonna Taylor",
